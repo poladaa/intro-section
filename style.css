@@ -1,0 +1,151 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Epilogue'
+  sans-serif;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  /* height: 20rem; */
+}
+
+.left-head {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right {
+  width: 95%;
+  display: flex;
+  justify-content:right;
+  position: relative;
+}
+
+.login {
+  margin-right: 13rem;
+  position: absolute;
+  bottom: 3.2rem;
+  text-decoration: none;
+  font-size: 2rem;
+  color: hsl(0, 0%, 8%);
+}
+
+.register {
+  text-decoration: none;
+  position: absolute;
+  bottom: 2rem;
+  font-size: 1.8rem;
+  color: hsl(0, 0%, 8%);
+  /* right: 0; */
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  border: 2px solid hsl(0, 0%, 8%);
+  transition: all 0.7s;
+}
+
+.register:hover {
+  padding: 0.5rem 2rem;
+  color:  hsl(0, 0%, 98%);
+  font-weight: 700;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.logo img {
+  margin: 3rem 8rem
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav ul li a {
+  margin-left: 2rem;
+  text-decoration: none;
+  font-size: 2rem;
+  color: hsl(0, 0%, 41%);
+  font-weight: 500;
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+article {
+  width: 100%;
+  margin: 5rem auto;
+}
+
+.right-side img {
+  width: 65%;
+  height: 100%;
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.hero {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+.left-side {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20rem;
+}
+
+.text h1 {
+  font-weight: 700;
+  font-size: 8rem;
+  color: hsl(0, 0%, 8%);
+  line-height: 1;
+  margin-bottom: 5rem;
+}
+.text p {
+  font-size: 2.4rem;
+  color: hsl(0, 0%, 41%);
+  line-height: 1.2;
+  margin-bottom: 4rem;
+}
+.text button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.6rem;
+  border: none;
+  padding: 1.5rem 4rem;
+  border-radius: 15px;
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 8%);
+  margin-bottom: 1rem;
+  transition: all 0.8s;
+}
+
+.text button:hover {
+  padding: 1rem;
+  background-color: #fff;
+  border: 2px solid hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+}
+
+
+.sponsor {
+  display: flex;
+  justify-content: baseline;
+  gap: 8rem;
+}
+
+.sponsor img {
+  height: 40%;
+}
